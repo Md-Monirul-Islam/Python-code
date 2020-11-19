@@ -1,0 +1,5 @@
+print()
+print(ord('M'))
+print(ord('m'))
+print(ord('t'))
+print(ord('4'))
