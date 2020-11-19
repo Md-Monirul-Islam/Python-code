@@ -1,0 +1,7 @@
+f = open("file.txt",mode="r")
+data = f.read()
+#data2 = f.read(5)
+print(data)
+#print(data2)
+f.close()
+print("SUCCESS")

@@ -1,0 +1,11 @@
+f = open("file_1.txt",mode="r")
+data1 = f.readline()
+data2 = f.readline()
+data3 = f.readlines()
+print(data1)
+print(data1)
+print(data3)
+for i in data3:
+    print(i)
+f.close()
+print("SUCCESS")

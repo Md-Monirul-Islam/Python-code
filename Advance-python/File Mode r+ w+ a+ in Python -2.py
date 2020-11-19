@@ -1,0 +1,8 @@
+f = open("file.txt",mode="w+")
+print(f.tell())
+f.write("infinix zero 8")
+print(f.tell())
+f.seek(4)
+data = f.read()
+print(f.tell())
+print(data)

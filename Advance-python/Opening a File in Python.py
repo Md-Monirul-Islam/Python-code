@@ -1,0 +1,8 @@
+f = open("file_1.txt",mode='rb',encoding='utf-8')
+#f.close()
+print(f.name)
+print(f.mode)
+print(f.closed)
+print(f.writable())
+print(f.readable())
+print(f.encoding)
