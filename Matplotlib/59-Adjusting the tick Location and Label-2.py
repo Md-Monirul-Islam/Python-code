@@ -1,0 +1,17 @@
+import numpy as np
+import matplotlib.pyplot as plt
+t = np.array([1,2,3,4])
+plt.plot(t**2,t,color="cyan",label="101")
+plt.plot(t**3,t,color="blue",label="102")
+plt.xlim(0,20)
+plt.grid()
+plt.xlabel("x label")
+plt.ylabel("y label")
+plt.title("first plot")
+#print(plt.xticks())
+#print(plt.xticks([2,4]))
+#plt.xticks([2,4,6,8,10],["A","B","C","D","E"],color="red",size="x-large")
+plt.xticks(np.arange(1,21,step=4),["A","B","C","D","E"],color="red",size="x-large",rotation=90)
+#plt.xticks([])
+#plt.yticks([])
+plt.show()

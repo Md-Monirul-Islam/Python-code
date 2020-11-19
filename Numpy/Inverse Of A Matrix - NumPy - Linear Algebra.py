@@ -1,0 +1,12 @@
+import numpy as np
+a = np.array([[1,2],[3,4]])
+print(a)
+b = np.linalg.inv(a)
+print(b)
+print(np.allclose(np.dot(a,b),np.eye(2)))
+print(np.dot(a,b))
+#print(help(np.linalg.inv))
+#print(help(np.allclose))
+c = np.array([[[1, 2], [3, 4]], [[1, 3], [3, 5]]])
+d = np.linalg.inv(c)
+print(c)
